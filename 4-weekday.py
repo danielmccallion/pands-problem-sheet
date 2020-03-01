@@ -4,8 +4,7 @@
 
 import datetime
 
-weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
-weekend = ["Saturday", "Sunday"]
+weekend = ("Saturday", "Sunday")
 
 if datetime.datetime.today().strftime("%A") in weekend:
     print("It is the weekend, yay!")
