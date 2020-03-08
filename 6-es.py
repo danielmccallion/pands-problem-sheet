@@ -4,14 +4,12 @@
 
 import sys
 
-e_count = 0
-
 
 # Function to read a file and return the count of a letter it contains
 def read_number(file_to_read, letter_to_search_for):
     with open(file_to_read) as f:
-        # Use lower to make string all lowercase and then count result
-        count = f.read().lower().count(letter_to_search_for)
+        # Count the occurences of the letter
+        count = f.read().count(letter_to_search_for)
         return count
 
 
