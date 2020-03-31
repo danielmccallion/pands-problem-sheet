@@ -6,11 +6,11 @@
 
 numbers = []
 
-numbers.append(int(input("Please enter a positive integer: ")))
+current_number = int(input("Please enter a positive integer: "))
 
-while numbers[-1] != 1:
+numbers.append(current_number)
 
-    current_number = numbers[-1]
+while current_number != 1:
 
     if current_number % 2 == 0:
         current_number /= 2
