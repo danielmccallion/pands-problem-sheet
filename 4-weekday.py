@@ -2,11 +2,13 @@
 # This program that outputs a message to state
 # if today is weekday or not
 
-import datetime
+from datetime import datetime
 
 weekend = ("Saturday", "Sunday")
 
-if datetime.datetime.today().strftime("%A") in weekend:
+current_day = datetime.today().strftime("%A")
+
+if current_day in weekend:
     print("It is the weekend, yay!")
 else:
     print("Yes, unfortunately today is a weekday.")
