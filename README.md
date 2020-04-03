@@ -16,11 +16,11 @@ This takes a positive integer and performs a series of calculations until 1 is r
 4-weekday.py <br />
 When this script is ran a message is displayed to state if it is currently the weekend or a weekday. This is based on Topic 5: Data.
 
-5-secondstring.py <br />
-This takes a string and then outputs every second letter in reverse order. This is based on Topic 6: State.
+5-squareroot.py <br />
+This script takes a positive number and outputs the approximation of its square root using Newtons method. This is based on Topic 6: Functions.
 
 6-es.py <br />
-When this program is run from the command line with a filename of a text file passed to it, the total number of lower case e's in that file gets outputted to the screen. This is based on Topic 7: Controlling the flow.
+When this program is run from the command line with a filename of a text file passed to it, the total number of lower case e's in that file gets outputted to the screen. This is based on Topic 7: Files.
 
 7-plot_functions.py <br />
 Using matplotlib a graph is created of 3 functions on the same axes when this script is run. This is based on Topic 8: Looking ahead.
